@@ -1,0 +1,138 @@
+pt-BR:
+  activerecord:
+    models:
+      client:
+        one: Cliente
+        other: Clientes
+        attributes:
+          client:
+            name: "Nombre"
+            company_name: "Nombre de compania"
+  views:
+    admin:
+      home:
+        name: Home
+        pagination:
+          previous: "&laquo; Anterior"
+          next: "Proximo %raquo;"
+          truncate: "_"
+          misc:
+            search: "Procurar"
+              filter: "Filtrar"
+                refresh: "Actualizar"
+                  show_all: "Mostrar Todo"
+                  add_filter: "Novo Filtro..."
+                  bulk_menu_title: "itens seleccionados..."
+                  remove: "Remover"
+                  add_new: "crear Novo"
+                  chosen: "%{name} escolhido"
+                  chose_all: "Escoger Todo"
+                  clear_all: "Limpiar Todo"
+                  up: "Cima"
+                  down: "Baixo"
+                  navigation: "Navegacion"
+                  log_out: "Terminar Sesion"
+                  ago: "atras"
+                  flash:
+                    successful: "%{name} %{action} com sucesso"
+                    error: "%{name} %{action} com sucesso"
+                    noaction: "Nenhuma executada"
+                    model_not_founs: "Modelo '%{model}' no encontrado"
+                    object_not_found: "%{model} con identificador '%{id}' no encontrado"
+                    table_headers:
+                      model_name: "Nombre de modelo"
+                      last_used: "Ultima vez usando"
+                      records: "Registros"
+                      username: "Usuario"
+                      changes: "Alteraciones"
+                      created_at: "Data/Hora"
+                      item: "Item"
+                      message: "Mensaje"
+                      actions:
+                        dashboard:
+                          title: "Administrador del sitio"
+                          menu: "DashBoard"
+                          breadcrumb: "DashBoard"
+                          index:
+                            title: "Lista de %{model_label_plural}"
+                            menu: "Lista"
+                            breadcrumb: "Dashboard"
+                            show:
+                              title: "Detalles para %{model_label} '%{object_label}'"
+                              menu: "mostar"
+                              breadcrumb: "%{object_label}"
+                              show_in_app:
+                                menu: "Mostrar la aplicacion"
+                                new:
+                                  title: "Novo %{model_label}"
+                                  menu: "Crear Novo"
+                                  breadcrumb: "Novo"
+                                  link: "Crear un novo %{model_label}"
+                                  done: "Creado"
+                                  edit:
+                                    title: "Editar %{model_label} '%{object_label}'"
+                                    menu: "Editar"
+                                    breadcrumb: "Editar"
+                                    link: "Editar este %{model_label}"
+                                    done: "Actualizado"
+                                    delete:
+                                      title: "Remover %{model_label} '%{object_label}'"
+                                      menu: "Remover"
+                                      breadcrumb: "Remover"
+                                      link: "Remover '%{object_label}'"
+                                      done: "Removerlo"
+                                      bulk_delete:
+                                        title: "Remover %{model_label_plural}"
+                                        menu: "Remover Varios"
+                                        breadcrumb: "Remover varios"
+                                        buld_link: "Remover seleccionados %{model_label_plural}"
+                                        export:
+                                          title: "Exportar %{model_label}"
+                                          menu: "Exportar"
+                                          breadcrumb: "Exportar"
+                                          link: "Exportar %{model_label_plural} encontrados"
+                                          buld_link: "Exportar %{model_label_plural} seleccionados"
+                                          done: "Exportados"
+                                          history_index:
+                                            title: "Historico para %{model_label_plural}"
+                                            menu: "Historico"
+                                            breadcrumb: "Historico"
+                                            history_show:
+                                              title: "Historico para %{model_label} '%{object_label}'"
+                                              menu: "Historico"
+                                              breadcrumb: "Historico"
+                                              form:
+                                                cancel: "Cancelar"
+                                                basic_info: "Informacion basica"
+                                                required: "Obligatorios"
+                                                optional: "Opcional"
+                                                one_char: "caracter"
+                                                char_length_up_to: "Comprimiendo"
+                                                char_length_of: "Comprimiento de"
+                                                save: "Gravar"
+                                                save_and_add_another: "Grabar y crear nuevo"
+                                                save_and_edit: "Grabar y editar"
+                                                all_of_the_following_related_items_will_be_deleted: "? Cosas raras "
+                                                are_you_sure_you_want_to_delete_the_object: "Cositas raras"
+                                                confirmation: "Sim, tenho certeza"
+                                                delete_confirmation: "Confirmar apagar"
+                                                bulk_delete: "Los siguientes objetos seran apagados."
+                                                export:
+                                                  confirmation: "Exportar para %{name}"
+                                                  select: "Seleccionar campos para exportar."
+                                                  fields_from: "Campos de %{name}"
+                                                  fields_form_associated: "Campos asociados con %{name}"
+                                                  display: "Mostrar %{name}: %{type}"
+                                                  options_for: "Opciones para %{name}"
+                                                  empty_value_for_associated_objects: "<vazio>"
+                                                  click_to_reverse_selection: 'Click para invertir seleccion'
+                                                  csv:
+                                                    header_for_root_methods: "%{name}" # 'model' is available
+                                                    header_for_association_methods: "%{name} [%{association}]"
+                                                    encoding_to: "Codificar para"
+                                                    encoding_to_help: "No le entiendo que dice"
+                                                    skip_header: "sin cacecal"
+                                                    skip_header_help: "No generar campos"
+                                                    default_col_sep: ","
+                                                    col_sep: "Separador de columnas"
+                                                    col_sep_help: "Dejar en banco para usar ('%{value}')" # value is default_col_sep

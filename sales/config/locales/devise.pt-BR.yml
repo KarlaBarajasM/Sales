@@ -1,0 +1,58 @@
+pt-BR:
+  devise:
+    confirmations:
+      confirmed: "Esta logueado."
+      send_instructions: "Dentro de minutos recibira un email con instrucciones"
+      send_paranois_instructions: "Recibira un mensaje"
+      failure:
+        already_authenticated: "Usted ya esta logueado"
+        inactive: "Su cuenta no fue activada"
+        invalid: "%{authentication_keys} no es validA"
+        locked: "Su cuenta esta boqueada."
+        last_attemp: "Voce una alternativa antes de bloquear su cuenta."
+        not_found_in_database: "%{authentication_keys} o invalida"
+        timeout: "Su sesion expiro, porfavor loguearse nuevamente"
+        unauthenticated: "Para continuar, loguese"
+        unconfirmed: "Antes de contiuar, confire su contrase;a"
+        mailer:
+          confirmation_instructions:
+            subject: "Instrucciones de confirmacion"
+            reset_password_instructions:
+              subject: "Instrucciones de cambio"
+              unlock_instructions:
+                subject: "Instrucciones de desbloqueo"
+                omniauth_callbacks:
+                  failure: "No fue posible la autenticacion como %{kind} porque &{reason}"
+                  success: "Autenticado como %{kind}"
+                  passwords:
+                    no_token: "No se puede acceder a esta pagina a traves de su email."
+                    send_instructions: "En minutos recibira un email de confirmacion"
+                    send_paranoid_instructions: "Se enviara un link de recuperacion a su email."
+                    updated: "Usted se encuantra logueado."
+                    updated_not_active: "Su usuario fue alterado con exito "
+                    registrations:
+                      destroyed: "Su cuenta fue cancelada con exito"
+                      signed_up: "Logueado con exito"
+                      signed_up_but_inactive: "Esta logueado pero inactivo"
+                      signed_up_but_locked: "Usuario registrado pero bloqueado"
+                      signed_up_but_unconfirmed: "Mensaje con lick de confirmacion llegar a su correo."
+                      update_needs_confirmation: "Para actualizar su cuenta se requiere confirmacion."
+                      updated: "Su cuenta fue actualizada exitosamente"
+                      sessions:
+                        signed_in: "Logue exitoso"
+                        signed_out: "Salida exitosa"
+                        already_signed_out: "Salida exitosa"
+                        unlocks:
+                          send_instructions: "En minutos recibira correo electronico de confirmacion."
+                          send_paranoid_instructions: "Recibira email con instrucciones para desbloquear su cuenta."
+                          unlocked: "Su cuenta fue desbloqueada con exito"
+                          errors:
+                            mesages:
+                              already_confirmed: Fue confirmado
+                              confirmation_period_expired: "Periodo tiene que ser confirmado"
+                              expired: "Expiro, por favor solicite una nueva."
+                              not_found: "No encontrado"
+                              not_locked: "Fue bloqueado"
+                              not_saved:
+                                one: "No fue posible salvarlo %{resource}: 1 error"
+                                other: "no fue posible salvar %{resource}: %{count} errores."
